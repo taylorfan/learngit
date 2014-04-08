@@ -1,0 +1,94 @@
+.whole_wp {
+    width: 100%;
+    min-width: 1000px;
+    border-bottom: 1px solid #fff;
+    height: 480px;
+    position: relative;
+}
+.container_wp {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    height: 480px;
+}
+.f_con {
+    position: absolute;
+    top: 128px;
+    width: 412px;
+    font-size: 14px;
+    color: #1E1E1E;
+    left: 0;
+    z-index: 99;
+}
+.f_con {
+    left: 554px;
+}
+.png {
+    background: url(http://vip.xunlei.com/client/img/png24_spr.png) no-repeat;
+}
+.blue_color_ico {
+    position: absolute;
+}
+.blue_color_ico {
+    z-index: 9;
+}
+.blue_color_ico_01 {
+    width: 48px;
+    height: 48px;
+    background-position: -9px -553px;
+    top: 80px;
+    left: 66px;
+}
+.blue_color_ico_02{width:112px;height:112px;background-position:-152px -534px;top:53px;left:230px;   }
+.blue_color_ico_03{width:150px;height:150px;background-position:0 -713px;top:244px;left:88px;   }
+.blue_color_ico_04{width:80px;height:80px;background-position:-304px -734px;top:261px;left:379px;   }
+
+.blue_anim_default, .blue_gray_ico, .blue_xl_logo {
+    background: url(http://vip.xunlei.com/client/img/two.png) no-repeat;
+    position: absolute;
+}
+.blue_anim_default, .blue_xl_logo {
+    position: absolute;
+    width: 385px;
+    height: 355px;
+    left: 82px;
+    top: 59px;
+}
+.blue_gray_ico {
+    width: 411px;
+    height: 284px;
+    background-position: -24px -715px;
+    top: 109px;
+    left: 75px;
+    z-index: 2;
+}
+.blue_whole_wp {
+    background: #E2F0FB;
+    z-index: 8;
+}
+.blue_anim_default {
+    background-position: 0 4px;
+    z-index: 3;
+}
+.blue_xl_logo {
+    background-position: 0 -350px;
+    cursor: pointer;
+    cursor: default \9;
+}
+.blue_xl_logo {
+    z-index: 4;
+}
+
+.gray_show_anim,.light_blue_show_anim,.how_many_box,.blue_color_ico,.blue_xl_logo,.blue_gray_ico,.light_blue_branch,.light_blue_color_ico,.money_ico,.money_i6,.money_i7,.pink_lines,.pink_icos{display:none; }
+.show_blue_animation .blue_xl_logo,.show_blue_animation .blue_gray_ico,.show_blue_animation .blue_color_ico,.show_gray_animation .how_many_box,.show_gray_animation .gray_show_anim,.show_light_blue_animation .light_blue_branch,.show_light_blue_animation .light_blue_color_ico,.moneybox_animate .money_ico,.moneybox_animate .money_i6,.moneybox_animate .money_i7,.pix_box_animate .pink_lines,.pix_box_animate .pink_icos{display:block; }
+
+.show_blue_animation  .blue_color_ico_01{
+/* -webkit-animation: bounceIn .6s 0.8s ease both;
+ -moz-animation: bounceIn .6s 0.8s ease both;
+ -ms-animation: bounceIn .6s 0.8s ease both;*/
+}
+
+.show_blue_animation .blue_color_ico_01{
+    transform:rotate(30deg)
+    -webkit-transform:rotate(30deg);
+}
