@@ -89,6 +89,82 @@
 }
 
 .show_blue_animation .blue_color_ico_01{
-    transform:rotate(30deg)
-    -webkit-transform:rotate(30deg);
+    -webkit-animation: bounceIn .6s 0.2s ease both;
 }
+.show_blue_animation .blue_color_ico_02{
+    -webkit-animation: bounceIn .6s 0.4s ease both;
+}
+.show_blue_animation .blue_color_ico_03{
+    -webkit-animation: bounceIn .6s .6s ease both;
+}
+.show_blue_animation .blue_color_ico_04{
+    -webkit-animation: bounceIn .6s .8s ease both;
+}
+.show_blue_animation .blue_gray_ico {
+    -webkit-animation: bounceIn .6s 1s ease both;
+}
+
+.show_blue_animation .blue_anim_default {
+    -webkit-animation: bounceIn .6s ease forwards;
+}
+
+.show_blue_animation .blue_xl_logo {
+    -webkit-animation: tobuttom 1s .6s ease both;
+}
+@-webkit-keyframes bounceIn {
+    0% {-webkit-transform:scale(0)}
+    50% {-webkit-transform:scale(1.05)}
+    70% {-webkit-transform:scale(0.9)}
+    100% {-webkit-transform:scale(1)}
+}
+@-webkit-keyframes tobuttom {
+    0% {height:0}
+    100% {height:355px;}
+}
+
+
+
+.ff {
+position: absolute;
+top: 2px;
+left: 2px;
+display: block;
+z-index: 10;
+width: 112px;
+height: 112px;
+-webkit-border-radius: 59px;
+-webkit-box-shadow: 0 0 6px rgba(0,0,0,.5);
+overflow: hidden;
+border: solid 1px black;
+background: 
+-webkit-gradient( 
+    linear, left top, left bottom, 
+    from(transparent), 
+    color-stop(0.1, transparent), 
+    color-stop(0.5, rgba(255,255,255,0.25)), 
+    color-stop(0.9, transparent), 
+    to(transparent)), 
+-webkit-gradient( 
+    radial, 56 56, 10, 56 56, 114, 
+    from(transparent), 
+    color-stop(0.01,transparent),
+    color-stop(0.1,rgba(28,28,28,1)),
+    to(rgba(28,28,28,1)));
+border-top: 1px solid rgba(255,255,255,.25);
+}
+
+.radial{
+    display:block; 
+    width:150px; 
+    height:150px; 
+    border:1px solid blue; 
+    background-image:
+    -webkit-gradient(radial, 45 45, 10, 45 45, 60, 
+        from(#70BFD0), 
+        to(rgba(1,159,98,0)), 
+        color-stop(90%, #019F62))
+}
+.gradient5 {-webkit-background-size: 20px 20px;
+    width:500px;height:500px;
+  background-image: -webkit-gradient(linear, 0 0, 100% 100%, color-stop(.25, #555),to(transparent))
+      }
