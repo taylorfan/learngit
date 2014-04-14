@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="all">
+<meta name="author" content="Tencent-CP">
+<meta name="Copyright" content="Tencent">
+<meta name="Description" content="">
+<meta name="Keywords" content="test">
+<title>专题主题（标题）</title>
+<link href="css/common.css" rel="stylesheet">
+<link href="css/global.css" rel="stylesheet">
+</head>
+<body>
+<div class="whole_wp blue_whole_wp">
+    <div class="container_wp">
+        <div class="f_con">
+            <h3>性能提升卓尔不凡</h3>
+            <p>
+                优化软件架构，从安装到使用，一切都是如此迅速。
+            </p>
+        </div>
+        <div class="animation_box">
+            <span class="blue_color_ico blue_color_ico_01 png"></span>
+            <span class="blue_color_ico blue_color_ico_02 png"></span>
+            <span class="blue_color_ico blue_color_ico_03 png"></span>
+            <span class="blue_color_ico blue_color_ico_04 png"></span>
+            <span class="blue_xl_logo"></span>
+            <span class="blue_gray_ico"></span>
+            <span class="blue_anim_default"></span>
+        </div>
+    </div>
+</div>
+<div class="ff"></div>
+<div class="radial"></div>
+<div class="gradient5"></div>
+<script src="script/jquery1.4.3.js"></script>
+<script type="text/javascript">
+$(function(){
+    $('.whole_wp').hover(function(){
+        $(this).find('.animation_box').addClass('show_blue_animation')
+    },function(){
+        $(this).find('.animation_box').removeClass('show_blue_animation')
+    })
+})
+</script>
+</body>
+</html>
